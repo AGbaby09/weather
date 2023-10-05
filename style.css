@@ -80,10 +80,10 @@ h1, h3{
     height: 100%;
     top: 0;
     right: 0;
-    background: rgba(110, 110, 110, 0.25);
+    background: rgba(170, 170, 170, 0.32);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(12.5px);
+-webkit-backdrop-filter: blur(12.5px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     z-index: 1;
     padding: 3em 2em;
@@ -133,7 +133,7 @@ h1, h3{
     border-bottom: 1px #ccc solid;
 }
 .panel ul li{
-    color: #ccc;
+    color: gray;
     margin: 2.5em 0;
 }
 .panel ul h4{
