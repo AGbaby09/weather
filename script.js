@@ -15,7 +15,7 @@ const cities = document.querySelectorAll('.city');
 const brand = document.querySelector('.brand');
 
 // default city when page loads
-let cityInput = "Oyibi";
+let cityInput = "London";
 
 // add click event to each city int the panel
 cities.forEach(city => {
