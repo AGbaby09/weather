@@ -54,8 +54,8 @@ function getMonth(m){
     return months[m];
 }
 
-function fetchWeatherData(){
-    fetch(`http://api.weatherapi.com/v1/current.json?key=144eda60e2ec4b29abe10238230510&q=${cityInput}&aqi=no`)
+async function fetchWeatherData(){
+    await fetch(`http://api.weatherapi.com/v1/current.json?key=144eda60e2ec4b29abe10238230510&q=${cityInput}&aqi=no`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
