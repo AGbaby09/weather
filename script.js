@@ -45,7 +45,7 @@ form.addEventListener('submit', (e) => {
 })
 
 function dayOfTheWeek(day, month, year){
-    const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const weekday = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     return weekday[new Date(`${day}/${month}/${year}`).getDay()]
 }
 
